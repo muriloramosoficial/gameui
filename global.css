@@ -4,6 +4,8 @@ body {
   color: #ffffff;
   margin: 0;
   padding: 0;
+  color: #ffecb2;
+  min-width: 891px;
 }
 
 /* scroll bar personalizado */
@@ -120,13 +122,55 @@ body {
   justify-content: space-between;
   margin-top: 10px;
   height: 300px;
+  min-width: 790px;
   /* align-items: center; */
 }
 
 .weapon-info {
   content: "";
   width: 38%;
-  background-color: red;
+  /* background-color: red; */
+}
+
+.weapon-info-header-container {
+  content: "";
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -30px;
+  font-family: "Quantico", sans-serif;
+  min-width: 323px;
+}
+
+.weapon-info-header {
+  content: "";
+  /* background-color: red; */
+}
+
+.weapon-info-header-box {
+  content: "";
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  height: 20px;
+  padding: 3px;
+  border: 1px solid #96864f;
+  border-left: 4px solid #d2c193;
+}
+
+#h-white-text {
+  content: "";
+  color: white;
+  margin-right: 10px;
+}
+
+.weapon-info-description {
+  content: "";
+  text-align: justify;
+  font-family: "Raleway", sans-serif;
 }
 
 .image-weapons {
@@ -192,7 +236,8 @@ body {
   margin-right: 5rem;
   /* margin-bottom: 25px;
   margin-top: 25px; */
-  background-color: yellow;
+  background-color: #090806;
+  border: 1px solid #d2c193;
 }
 
 .btnInf-right {
@@ -202,5 +247,6 @@ body {
   margin-left: 5rem;
   /* margin-bottom: 25px;
   margin-top: 25px; */
-  background-color: yellow;
+  background-color: #090806;
+  border: 1px solid #d2c193;
 }
