@@ -6,6 +6,28 @@ body {
   padding: 0;
 }
 
+/* scroll bar personalizado */
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(61, 61, 61) gray;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: gray;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 30px;
+  border: 3px solid orange;
+}
+
 .up-head-bar {
   content: "";
   height: 50px;
@@ -42,6 +64,7 @@ body {
 
 .main-content {
   content: "";
+  height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -59,6 +82,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 10px;
+  height: 300px;
   /* align-items: center; */
 }
 
@@ -75,6 +99,7 @@ body {
   justify-content: space-between;
   padding-left: 30px;
   width: 70%;
+  /* height: 50%; */
   margin: -10px;
 }
 
@@ -93,6 +118,7 @@ body {
   width: 30%;
   /* background-color: purple; */
   overflow-y: scroll;
+  /* height: 33%; */
 }
 
 .image-list-item {
@@ -108,7 +134,7 @@ body {
   content: "";
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .inf-buttons {
@@ -125,7 +151,7 @@ body {
   content: "";
 
   width: 12rem;
-  margin-right: 25px;
+  margin-right: 5rem;
   /* margin-bottom: 25px;
   margin-top: 25px; */
   background-color: yellow;
@@ -135,7 +161,7 @@ body {
   content: "";
   width: 12rem;
   height: 3rem;
-  margin-left: 25px;
+  margin-left: 5rem;
   /* margin-bottom: 25px;
   margin-top: 25px; */
   background-color: yellow;
