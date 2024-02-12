@@ -7,13 +7,13 @@ body {
 }
 
 /* scroll bar personalizado */
-/* Works on Firefox */
+/* para o Firefox */
 * {
   scrollbar-width: thin;
   scrollbar-color: rgb(61, 61, 61) gray;
 }
 
-/* Works on Chrome, Edge, and Safari */
+/* para o Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 12px;
 }
@@ -23,9 +23,9 @@ body {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: blue;
+  background-color: rgb(66, 66, 66);
   border-radius: 30px;
-  border: 3px solid orange;
+  border: 3px solid gray;
 }
 
 .up-head-bar {
