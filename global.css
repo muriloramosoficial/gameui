@@ -49,8 +49,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background-color: #342c1e;
   border: 1px solid #b9974c;
   /* opacity: 0.8; */
@@ -80,12 +80,19 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  height: 40px;
   padding-left: 20px;
   padding-right: 20px;
   /* width: 60px; */
   border: 1px solid #b9974c;
   background-color: #2e281d;
   /* opacity: 0.8; */
+}
+
+.exp-number-text {
+  content: "";
+  font-family: "Quantico", sans-serif;
+  font-size: 20px;
 }
 
 .main-content {
