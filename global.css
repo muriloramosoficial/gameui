@@ -53,6 +53,14 @@ body {
   height: 50px;
   background-color: #342c1e;
   border: 1px solid #b9974c;
+  /* opacity: 0.8; */
+  /* transition: 1s; */
+}
+
+.btn-back-head:hover {
+  content: "";
+  background-color: #50432e;
+  cursor: pointer;
 }
 
 .icon-back {
@@ -74,8 +82,10 @@ body {
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
-  width: 60px;
-  background-color: green;
+  /* width: 60px; */
+  border: 1px solid #b9974c;
+  background-color: #2e281d;
+  /* opacity: 0.8; */
 }
 
 .main-content {
