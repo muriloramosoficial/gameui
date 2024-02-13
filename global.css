@@ -8,7 +8,7 @@ body {
   min-width: 891px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 320px) {
   body {
     width: 50%;
     height: 50%;
